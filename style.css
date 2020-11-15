@@ -1,0 +1,289 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*..header section....*/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+header{
+	width: 100%;
+	padding: 30px 0;
+
+
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img{}
+nav{
+	width: 80%;
+	float: right;
+}
+nav ul{
+	width: 100%;
+	text-align: right;
+	list-style: none;
+	
+}
+
+nav ul li{
+	display: inline-block;
+	padding-right: 45px;
+	
+}
+nav ul li:last-child{
+    padding-right: 0px !important;
+}
+nav ul li a{
+	text-decoration: none;
+	
+	font-size: 19px;
+	color: grey;
+
+}
+
+    /*........banar section..*/
+
+.banar-section{
+	width: 100%;
+}
+.banar-img{
+	width: 100%;
+}
+.banar-img img{
+	width:100%; 
+
+}
+.article-srction{
+	width: 100%;
+
+}
+.artpart-1{
+	padding: 40px 0;
+}
+.artpart-1 span{
+	margin: 20px 0;
+	color: gray;
+}
+.artpart-1 h2{
+	margin: 20px 0;
+	color: gray;
+}
+.artpart-1 p{
+	margin: 20px 0;
+	color: gray;
+}
+.artpart-1 a{
+	text-decoration: none;
+	margin: 20px 0;
+	color: gray;
+
+}
+.gallery{
+	width: 100%;
+	margin: 20px 0;
+	display: inline-block;
+}
+.gallery-box{
+	width: 48.65%;
+	margin: 20px 0;
+	float: left;
+}
+.gallery-box img{
+	width: 100%;
+}
+.gallery-box span{
+	display: inline-block;
+	color: grey;
+	margin: 20px 0;
+}
+.gallery-box h2{
+	color: grey;
+	margin: 20px 0;
+}
+.gallery-box p{
+	color: grey;
+}
+.margin{
+	margin-right: 28.99px;
+}
+.newsletter-section{
+	width: 100%;
+	background-color: #e4e2e2;
+	margin:30px 0; 
+	padding:100px 0;
+}
+.news{
+	text-align: center;
+}
+
+.news h2{
+	margin-bottom: 30px;
+}
+.news input{
+	border:none;
+	border-bottom: 1px solid black;
+	background:transparent;
+	width: 40%;
+	padding: 10px;
+}
+.news button{
+	border:none;
+	background:transparent;
+}
+
+ /*....button-section....*/ 
+
+  .button-section{
+  	width: 100%;
+  } 
+.btn{
+	text-align: center;
+	padding: 55px 0;
+}
+.btn a{
+	text-decoration: none;
+	font-size: 20px;
+	font: bold;
+
+}
+.btn button{
+	padding: 20px 50px;
+}
+.footer{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #bbbbbb;
+	padding: 40px 0;
+}
+.terms{
+	margin-left: 50px;
+}
+.terms ul{
+	list-style: none;
+}
+
+.terms ul li{
+	float: left;
+	padding-right: 20px;
+	font-size: 19px;
+}
+.Follow{
+	float: right;
+	margin-right: 50px; 
+	
+}
+.Follow ul{}
+
+.Follow ul li{
+	float: left;
+	font-size:19px;
+	padding-right: 15px;
+	list-style: none;
+}
+
+.Follow ul li:last-child {
+	padding-right: 0px!important;
+}
+
+   /* responsiv code */
+
+	@media only screen and (min-width: 1200px){
+		
+   		.artpart-1 p {text-align: justify;}
+		.gallery-box p{ text-align: justify; }
+
+	}
+
+	@media only screen and (max-width: 1199.98px) and (min-width: 922px){
+		.artpart-1 p {text-align: justify;}
+		.gallery-box p{ text-align: justify; }
+		.gallery-box{ width: 47.65%;}
+		.gallery-box h2{ font-size: 18px; }
+	}
+
+   @media only screen and (max-width: 991.98px) and (min-width: 768px){
+   		.artpart-1 p {text-align: justify;}
+		.gallery-box p{ text-align: justify; }
+		.gallery-box h2{ font-size: 18px; }
+		nav ul li {
+		padding-right: 25px; }
+
+		.gallery-box{ 
+   			
+   			width: 46.65%;}
+   			
+		
+   }
+   		
+  
+   
+@media only screen and (max-width: 767.98px) and (min-width: 576px) {
+
+		.artpart-1 p {text-align: justify;}
+		.gallery-box p{ text-align: justify; }
+		.gallery-box h2{ font-size: 16px; }
+		.gallery-box{ width: 46.65%;}
+		nav ul li a  {
+		font-size: 14px;	
+		}
+	nav ul li {
+		padding-right: 11px; 
+	}
+}		
+
+
+@media only screen and (max-width: 575.98px){
+		header nav{
+   				display: none;
+   			}
+   		header .button img{
+   			width: 9%;
+   			float: right;
+   		}
+   		.artpart-1{ text-align: center; }
+   		.artpart-1 p {
+   			text-align: justify;
+   		}	
+   		.artpart-1 h2{ font-size: 16px; }
+   		.gallery-box{ 
+   			
+   			width: 100%;
+   			margin: 0px;
+   		 } 
+   		 .gallery-box p{ text-align: justify; }
+   		 .gallery-box h2{ font-size: 16px; }
+   		 .newsletter-section{
+   		 	padding: 50px 0;
+   		 }
+   		 .news h2{font-size: 16px;}
+   		 .news input{ width: 60%; }
+   		 .btn button {
+    		padding: 9px 16px;}
+    		.btn a{ font-size: 12px; }
+    		.btn{ padding: 30px 0; }
+    		.terms{ margin-left: 5px; }
+
+    		.terms ul li{ font-size: 12px;
+    						padding: 2px; }
+    		.Follow{ margin-right: 5px; }
+    		.Follow ul li{
+    			font-size: 12px;
+    			padding: 5px;
+    		}
+   } 		
+
+@media only screen and (min-width: 576px){
+	header .button {display: none;}
+}		
+   
+    
+    
